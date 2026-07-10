@@ -1,0 +1,260 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="874" height="529" viewBox="0 0 874 529">
+  <style>
+    .portrait text { font-family: 'Courier New', Courier, monospace; font-size: 10px; fill: #00ff41; white-space: pre; }
+    .info text { font-family: 'Courier New', Courier, monospace; font-size: 15px; white-space: pre; }
+    .info .header { fill: #00ff41; font-weight: bold; }
+    .info .key    { fill: #ffa657; }
+    .info .dots   { fill: #484f58; }
+    .info .value  { fill: #c9d1d9; }
+    .info .added   { fill: #3fb950; }
+    .info .removed { fill: #f85149; }
+  </style>
+  <rect x="0.5" y="0.5" width="873" height="528" rx="8" fill="#0d1117" stroke="#3d444d"/>
+  <svg class="portrait" x="16" y="16.0" width="250" height="277.1" viewBox="0 0 582 645">
+    <text x="0" y="10" xml:space="preserve">                                        ░▒▓▓▓████▓▓▓▓▒░</text>
+    <text x="0" y="20" xml:space="preserve">                                   ░░▓██████████████▓▓▓▓▓▒░</text>
+    <text x="0" y="30" xml:space="preserve">                                  ░▓▓███████████████████▓▓▒</text>
+    <text x="0" y="40" xml:space="preserve">                                  ░▒▓▓███▓████████████▓▓▓▓▓░</text>
+    <text x="0" y="50" xml:space="preserve">                                  ░▒▓▓▓██████████▓████▓▓▓▓▓▒</text>
+    <text x="0" y="60" xml:space="preserve">                                  ░▓▓▓████████████▓████▓▓▓▓▒</text>
+    <text x="0" y="70" xml:space="preserve">                                 ░▓▓▓█▓▒▒▒░░░░▒▒▓▓▓▓▓▒▒▓▓▓▓▒</text>
+    <text x="0" y="80" xml:space="preserve">                                ▒▓▓▓▒░░░░░ ░░░░░▓▓▒░░  ░░░▒</text>
+    <text x="0" y="90" xml:space="preserve">                          ▓▓▓░ ░▓▓▓▓░░        ░▒██▓     ░░▒</text>
+    <text x="0" y="100" xml:space="preserve">                         ░░▓▒▒░░▓▓███▓▓▒░░░░░▒▓▓███░  ░ ░░▒</text>
+    <text x="0" y="110" xml:space="preserve">                         ░▓▓▒░░▒▓▓██████████▓▓▓████▓▒░░▒▒▒▒</text>
+    <text x="0" y="120" xml:space="preserve">                          ▓▓▒▒▒▒▓▓██████████▓▓█████▓▓▓▓▓▓▓▒</text>
+    <text x="0" y="130" xml:space="preserve">                           ▓██▒▒▒▓▓▓▓███▓▓▓▓▓▒▓▒▒▒▒▒▒▓▓▓▓▓░</text>
+    <text x="0" y="140" xml:space="preserve">                           ░██▓░▒▒▓▓▓▓▓▓▓████▒░ ░▒░░▓▓▓▓▓▓░</text>
+    <text x="0" y="150" xml:space="preserve">                             ░▒░▒▒▒▒▓▓▓▒▒▒░░░░░     ░▓▓▓▓▓</text>
+    <text x="0" y="160" xml:space="preserve">                              ▒▒▒▒▒▒▒▒▒▒░  ░░░░░░░░░░░░▒▒▒</text>
+    <text x="0" y="170" xml:space="preserve">                              ▒▓▒▒▒▒▒▒▒░▒▓▓▓▓▒▒▒▒▒▒░░ ░░░░</text>
+    <text x="0" y="180" xml:space="preserve">                             ░▒▓▓▒░░▒░▒░▒▒▓▓▒░░   ░▒▒▒░░░░</text>
+    <text x="0" y="190" xml:space="preserve">                             ░░▓▓▓▒░▒░░░▒▒▒▓▓▓▓▓▒▒▒▒▒░░░░</text>
+    <text x="0" y="200" xml:space="preserve">                          ░░░░░█▓▓▓▓▒░░░░░░░░▒▒▒▒▒▒▒░░░░</text>
+    <text x="0" y="210" xml:space="preserve">                        ░░░░▒▒██▓▓▓▓▒▒▒░░░░░░░▒▒░░░░░░▒▒</text>
+    <text x="0" y="220" xml:space="preserve">                       ░░░░▒▒████▓▓▓▒▒▒▒▒░░░░░░░░░░░░▒▓███▓</text>
+    <text x="0" y="230" xml:space="preserve">                       ░░░░▓██████▒▓▓▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▓▒▒██████▒░</text>
+    <text x="0" y="240" xml:space="preserve">                   ░░░░░░░▓███████▓▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▓▓▒░▒█████████▓░</text>
+    <text x="0" y="250" xml:space="preserve">                 ░░░░░░▒███████████▓▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▓▒▒░▒███████████████████▓░</text>
+    <text x="0" y="260" xml:space="preserve">                ░░░░░▒████████▓▓▓▓███▓▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▓▓▓█████▓████████████████░░</text>
+    <text x="0" y="270" xml:space="preserve">            ░░░░░░▒████████▓▓▓▓▓▓▓███▓▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▓▓█████▒▓█████████████████████░░</text>
+    <text x="0" y="280" xml:space="preserve">        ░░░░░░░▒████████████▓▓▓▓▓▓▓███▒▒▒▒▒▒▒▒▒▒▒▒▒▓▓▓▓█████████████████████████████▓░░░</text>
+    <text x="0" y="290" xml:space="preserve">     ░░░░░░░▒█████████████████▓▓██▓▓████▓▓▒▒▒▒▒▒▒▒▓▓▓▓████████████████████████████████░░</text>
+    <text x="0" y="300" xml:space="preserve">  ░░░░░░░▒███████████████████████████▓████▓▓▒▓▓▓▓▓▓▓▓▓████████████████████████████████▓░░</text>
+    <text x="0" y="310" xml:space="preserve">░░░░░░░░████████████████████████████████████▓▓▓▓▓▓▓▓▓▓█████████████████████████████████▓░░</text>
+    <text x="0" y="320" xml:space="preserve">░░░░░░░▓██████████████████████████████████████▓▓▓▓▓▓▓███████████████████████████████████░░░</text>
+    <text x="0" y="330" xml:space="preserve">░░░░░░▒████████████████████████████████████████████▓▓████████████████████████████████████░░</text>
+    <text x="0" y="340" xml:space="preserve">░░░░░░▓█████████████████████████████████████████████▓█████████████████████████████████████░░░</text>
+    <text x="0" y="350" xml:space="preserve">░░░░░▒████████████████████████████████████████████████████████████████████████████████████▒░░░</text>
+    <text x="0" y="360" xml:space="preserve">░░░░░░████████████████████████████████████████████████████████████████████████████████████░░░░░</text>
+    <text x="0" y="370" xml:space="preserve">░░░░░░▓████████████████████████████████████████████████████████████████████████████████████░░░░░</text>
+    <text x="0" y="380" xml:space="preserve">░░░░▒▒▓████████████████████████████████████████████████████████████████████████████████████▓░░░░░</text>
+    <text x="0" y="390" xml:space="preserve">░░░░░░▓█████████████████████████████████████████████████████████████████████████████████████▒░░░░</text>
+    <text x="0" y="400" xml:space="preserve">░░░░▒▒▓████████████████████████▓█████████████████████████████████████████████████████████████▒░░░</text>
+    <text x="0" y="410" xml:space="preserve">░░░▓▓▒▒███████████████████████████████████████████████████████████████████████████████████████▒░░</text>
+    <text x="0" y="420" xml:space="preserve"> ░░░░░▒██████████████████████████████████████████████████████████████████████████████████████▓█▒░</text>
+    <text x="0" y="430" xml:space="preserve">   ░░░░█████████████████████████████████████████████████████████████████████████████████████████░</text>
+    <text x="0" y="440" xml:space="preserve">   ░░░░▓████████████████████████████████████████████████████████████████████▓███████████████████▓</text>
+    <text x="0" y="450" xml:space="preserve">    ░░░░█████████████████████████████████████████████████████████████████████████████████████████</text>
+    <text x="0" y="460" xml:space="preserve">     ░░░▒████████████████████████████████████████████████████████████████████████████████████████</text>
+    <text x="0" y="470" xml:space="preserve">     ░░░░▒███████████████████████████████████████████████████████████████████████████████████████</text>
+    <text x="0" y="480" xml:space="preserve">       ░░░▓██████████████████████████▓██████████████████████████████████████▓████████████████████</text>
+    <text x="0" y="490" xml:space="preserve">        ░░░▓█████████████████████████████████████████████████████████████████████████████████████</text>
+    <text x="0" y="500" xml:space="preserve">         ░░░▓████████████████████████████████████████████████████████████████████████████████████</text>
+    <text x="0" y="510" xml:space="preserve">           ░░▓███████████████████████████████████████████████████████████████████████████████████</text>
+    <text x="0" y="520" xml:space="preserve">            ░░▓██████████████████████████████████████████████████████████████████████████████████</text>
+    <text x="0" y="530" xml:space="preserve">             ░░▓▓▓██████████████████████████████████▓▓███████████████████████████████████████████</text>
+    <text x="0" y="540" xml:space="preserve">              ░░▓▓▓████████▓▓▓▓█████████████████████▓▓▓▓▓██████████████████████████████▓▓████████</text>
+    <text x="0" y="550" xml:space="preserve">               ░░▓██▓▓▓▓▒▒▒▒▒▓▓▓▓▓▓▓█████████████████████▓████████████████████████████████▓▓█████</text>
+    <text x="0" y="560" xml:space="preserve">               ▒▒▒▒▒▒▒▒░░░▓███████▓███▓▓▓▓▓▓▓█▓██▓▓███████▓█████████████████████▒▒▒▒▒▒▓▓▓███▓▓███</text>
+    <text x="0" y="570" xml:space="preserve">                 ░▓▓▒▓███▓▓▓▒▒▓▓▓▓▓▓▓█▓▓▓▓▓████▓▓▒▒▒██████▒█████████████████▓▒▓▓▓▓▓▓█▓▓▓▒▒▒▓▓▓▒▓▓</text>
+    <text x="0" y="580" xml:space="preserve">                 ░▓▓▒▓▓▒▒▒▒▒▒▒▒▓▓▓▒▒▒▒▓███▓▓▓▓▓▓▓▓▒▒░░░░░░░░█████████████▓▓▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒</text>
+    <text x="0" y="590" xml:space="preserve">                 ░▓▓▒░▒░░▒▓▓▓▓▒▒▓▓▓▓▓▓▓▓▒▒▒▒▒▒▒▒▒░░░▒░▒▒░░░░▒██████▓▓▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒░░</text>
+    <text x="0" y="600" xml:space="preserve">                 ░▓▓▓▓▒▓▓▒▒▒▒▒▒▒▒▓▓▓▓▓▓▓▒▒▒░░░░░░░░░▒▒▒▒▒▒▒▒▒██▓▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒░</text>
+    <text x="0" y="610" xml:space="preserve">                 ░█▓█▓▒░░░░░░▒▓▓▒▓▓▓▒▒▒░░░░░░░░░░░▒▒▒▒▒▒▒▒▒▒▓▒▒▒▒▒▒▒▒▒▒▒▓▒▒▒▒▒▒▒▒▒▒░░</text>
+    <text x="0" y="620" xml:space="preserve">                  █▓███▓▓░▒▓▓▓▒▒░░░░░░░░░░░░░░░▒░▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒░▒▒▒▒▒▒▒▒░░</text>
+    <text x="0" y="630" xml:space="preserve">                  ▓███▓▓▓▒▒░░░░░▒░▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒░░░░░░░░░░░░░░</text>
+    <text x="0" y="640" xml:space="preserve">                  ░████▓█▓▓▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒░░░░░░░░░░░░░░░░░░░</text>
+  </svg>
+  <svg class="game" x="16" y="303.1" width="250" height="210.4" viewBox="0 0 600 505">
+
+  <style>
+    :root {
+      --color-frame: #2e7d4f;
+      --color-player: #00ff41;
+      --color-enemy: #ff5555;
+      --color-bullet: #ffd700;
+      --color-explosion: #ff6a00;
+      --color-message: #ffffff;
+      --cycle-duration: 3s;
+    }
+
+    .game text {
+      font-family: 'Courier New', Courier, monospace;
+      font-size: 10px;
+      white-space: pre;
+    }
+
+    .game .frame     { fill: var(--color-frame); }
+    .game .player    { fill: var(--color-player); }
+    .game .enemy     { fill: var(--color-enemy); }
+    .game .bullet    { fill: var(--color-bullet); }
+    .game .explosion { fill: var(--color-explosion); }
+
+    .game .message {
+      fill: var(--color-message);
+      font-size: 16px;
+      text-anchor: middle;
+    }
+
+    .game .message-backdrop { fill: #0d1117; }
+
+    @keyframes shoot {
+      0% {
+        transform: translateY(0);
+        opacity: 1;
+        animation-timing-function: steps(37, end);
+      }
+      70%       { transform: translateY(-370px); opacity: 1; }
+      71%, 100% { transform: translateY(-370px); opacity: 0; }
+    }
+
+    @keyframes explode {
+      0%, 69%   { opacity: 0; }
+      70%, 81%  { opacity: 1; }
+      82%, 100% { opacity: 0; }
+    }
+
+    @keyframes patrol {
+      0%, 49%   { transform: translateX(0); }
+      50%, 100% { transform: translateX(24px); }
+    }
+
+    @keyframes die {
+      0%, 69%   { opacity: 1; }
+      70%, 100% { opacity: 0; }
+    }
+
+    @keyframes announce {
+      0%, 81%   { opacity: 0; }
+      82%, 100% { opacity: 1; }
+    }
+
+    .game .bullet    { animation: shoot var(--cycle-duration) infinite; }
+    .game .explosion { opacity: 0; animation: explode var(--cycle-duration) infinite; }
+    .game .message,
+    .game .message-backdrop { opacity: 0; animation: announce var(--cycle-duration) infinite; }
+    .game .enemy {
+      animation:
+        patrol var(--cycle-duration) infinite,
+        die var(--cycle-duration) infinite;
+    }
+  </style>
+
+  <g class="game">
+  <rect width="600" height="505" fill="#0d1117"/>
+
+  <text class="frame" x="0" y="10" xml:space="preserve">╔══════════════════════════════════════════════════════════════════════════════════════════════════╗</text>
+  <text class="frame" x="0" y="20" xml:space="preserve">║                                                                                                  ║</text>
+  <text class="frame" x="0" y="30" xml:space="preserve">║                                                                                                  ║</text>
+  <text class="frame" x="0" y="40" xml:space="preserve">║                                                                                                  ║</text>
+  <text class="frame" x="0" y="50" xml:space="preserve">║                                                                                                  ║</text>
+  <text class="frame" x="0" y="60" xml:space="preserve">║                                                                                                  ║</text>
+  <text class="frame" x="0" y="70" xml:space="preserve">║                                                                                                  ║</text>
+  <text class="frame" x="0" y="80" xml:space="preserve">║                                                                                                  ║</text>
+  <text class="frame" x="0" y="90" xml:space="preserve">║..................................................................................................║</text>
+  <text class="frame" x="0" y="100" xml:space="preserve">║..................................................................................................║</text>
+  <text class="frame" x="0" y="110" xml:space="preserve">║..................................................................................................║</text>
+  <text class="frame" x="0" y="120" xml:space="preserve">║..................................................................................................║</text>
+  <text class="frame" x="0" y="130" xml:space="preserve">║..................................................................................................║</text>
+  <text class="frame" x="0" y="140" xml:space="preserve">║..................................................................................................║</text>
+  <text class="frame" x="0" y="150" xml:space="preserve">║..................................................................................................║</text>
+  <text class="frame" x="0" y="160" xml:space="preserve">║..................................................................................................║</text>
+  <text class="frame" x="0" y="170" xml:space="preserve">║..................................................................................................║</text>
+  <text class="frame" x="0" y="180" xml:space="preserve">║..................................................................................................║</text>
+  <text class="frame" x="0" y="190" xml:space="preserve">║..................................................................................................║</text>
+  <text class="frame" x="0" y="200" xml:space="preserve">║..................................................................................................║</text>
+  <text class="frame" x="0" y="210" xml:space="preserve">║..................................................................................................║</text>
+  <text class="frame" x="0" y="220" xml:space="preserve">║..................................................................................................║</text>
+  <text class="frame" x="0" y="230" xml:space="preserve">║..................................................................................................║</text>
+  <text class="frame" x="0" y="240" xml:space="preserve">║..................................................................................................║</text>
+  <text class="frame" x="0" y="250" xml:space="preserve">║..................................................................................................║</text>
+  <text class="frame" x="0" y="260" xml:space="preserve">║..................................................................................................║</text>
+  <text class="frame" x="0" y="270" xml:space="preserve">║..................................................................................................║</text>
+  <text class="frame" x="0" y="280" xml:space="preserve">║..................................................................................................║</text>
+  <text class="frame" x="0" y="290" xml:space="preserve">║..................................................................................................║</text>
+  <text class="frame" x="0" y="300" xml:space="preserve">║..................................................................................................║</text>
+  <text class="frame" x="0" y="310" xml:space="preserve">║..................................................................................................║</text>
+  <text class="frame" x="0" y="320" xml:space="preserve">║..................................................................................................║</text>
+  <text class="frame" x="0" y="330" xml:space="preserve">║..................................................................................................║</text>
+  <text class="frame" x="0" y="340" xml:space="preserve">║..................................................................................................║</text>
+  <text class="frame" x="0" y="350" xml:space="preserve">║..................................................................................................║</text>
+  <text class="frame" x="0" y="360" xml:space="preserve">║..................................................................................................║</text>
+  <text class="frame" x="0" y="370" xml:space="preserve">║..................................................................................................║</text>
+  <text class="frame" x="0" y="380" xml:space="preserve">║..................................................................................................║</text>
+  <text class="frame" x="0" y="390" xml:space="preserve">║..................................................................................................║</text>
+  <text class="frame" x="0" y="400" xml:space="preserve">║..................................................................................................║</text>
+  <text class="frame" x="0" y="410" xml:space="preserve">║..................................................................................................║</text>
+  <text class="frame" x="0" y="420" xml:space="preserve">║..................................................................................................║</text>
+  <text class="frame" x="0" y="430" xml:space="preserve">║..................................................................................................║</text>
+  <text class="frame" x="0" y="440" xml:space="preserve">║..................................................................................................║</text>
+  <text class="frame" x="0" y="450" xml:space="preserve">║.........................................               ..........................................║</text>
+  <text class="frame" x="0" y="460" xml:space="preserve">║.........................................               ..........................................║</text>
+  <text class="frame" x="0" y="470" xml:space="preserve">║.........................................               ..........................................║</text>
+  <text class="frame" x="0" y="480" xml:space="preserve">║.........................................               ..........................................║</text>
+  <text class="frame" x="0" y="490" xml:space="preserve">║.........................................               ..........................................║</text>
+  <text class="frame" x="0" y="500" xml:space="preserve">╚══════════════════════════════════════════════════════════════════════════════════════════════════╝</text>
+
+  <g class="enemy">
+    <text x="264" y="30" xml:space="preserve">   ▄▄▄▄▄   </text>
+    <text x="264" y="40" xml:space="preserve"> ▄█▄▄▄▄▄█▄ </text>
+    <text x="264" y="50" xml:space="preserve">██ █████ ██</text>
+    <text x="264" y="60" xml:space="preserve">█▄▄▄▄▄▄▄▄▄█</text>
+    <text x="264" y="70" xml:space="preserve"> ▀▀ ▀▀▀ ▀▀ </text>
+  </g>
+
+  <g class="player">
+    <text x="270" y="460" xml:space="preserve">    A    </text>
+    <text x="270" y="470" xml:space="preserve">  ▄▄█▄▄  </text>
+    <text x="270" y="480" xml:space="preserve">▄███████▄</text>
+  </g>
+
+  <text class="bullet" x="294" y="450">!</text>
+
+  <g class="explosion">
+    <text x="282" y="40" xml:space="preserve">\ | /</text>
+    <text x="282" y="50" xml:space="preserve">- * -</text>
+    <text x="282" y="60" xml:space="preserve">/ | \</text>
+  </g>
+
+  <rect class="message-backdrop" x="234" y="195" width="132" height="70"/>
+  <text class="message" x="300" y="222">You Win</text>
+  <text class="message" x="300" y="248">Game Over</text>
+  </g>
+
+  </svg>
+  <svg class="info" x="278" y="28.4" width="580" height="472.7" viewBox="0 0 665 542">
+    <text x="0" y="15" xml:space="preserve" class="header">federico@olive ──────────────────────────────────────────────────────────</text>
+    <text x="0" y="35" xml:space="preserve"><tspan class="key">OS</tspan><tspan class="dots">: ......................... </tspan><tspan class="value">Windows 10, Ubuntu 24.04 LTS, Android 16</tspan></text>
+    <text x="0" y="55" xml:space="preserve"><tspan class="key">Uptime</tspan><tspan class="dots">: ..................... </tspan><tspan class="value"><!--uptime-->000<!--/uptime--></tspan></text>
+    <text x="0" y="75" xml:space="preserve"><tspan class="key">Host</tspan><tspan class="dots">: ....................... </tspan><tspan class="value">Buenos Aires, Argentina</tspan></text>
+    <text x="0" y="95" xml:space="preserve"><tspan class="key">Kernel</tspan><tspan class="dots">: ..................... </tspan><tspan class="value">Game Developer, Business Systems Automation</tspan></text>
+    <text x="0" y="115" xml:space="preserve"><tspan class="key">IDE</tspan><tspan class="dots">: ........................ </tspan><tspan class="value">Rider, VS Community, VSCode</tspan></text>
+    <text x="0" y="155" xml:space="preserve"><tspan class="key">Languages.Programming</tspan><tspan class="dots">: ...... </tspan><tspan class="value">C++, C#, JavaScript, Python</tspan></text>
+    <text x="0" y="175" xml:space="preserve"><tspan class="key">Languages.Computer</tspan><tspan class="dots">: ......... </tspan><tspan class="value">HTML, CSS, XML, JSON, YAML</tspan></text>
+    <text x="0" y="195" xml:space="preserve"><tspan class="key">Languages.Databases</tspan><tspan class="dots">: ........ </tspan><tspan class="value">SQL, PostgreSQL, MySQL</tspan></text>
+    <text x="0" y="215" xml:space="preserve"><tspan class="key">Languages.IRL</tspan><tspan class="dots">: .............. </tspan><tspan class="value">English, Spanish</tspan></text>
+    <text x="0" y="255" xml:space="preserve"><tspan class="key">Knowledge.Business</tspan><tspan class="dots">: ......... </tspan><tspan class="value">Corporate Finance, ERP/CRM Systems</tspan></text>
+    <text x="0" y="295" xml:space="preserve"><tspan class="key">DevOps</tspan><tspan class="dots">: ..................... </tspan><tspan class="value">AWS, Docker</tspan></text>
+    <text x="0" y="315" xml:space="preserve"><tspan class="key">Hobbies.Software</tspan><tspan class="dots">: ........... </tspan><tspan class="value">Game Jams, Game Development, Automation</tspan></text>
+    <text x="0" y="335" xml:space="preserve"><tspan class="key">Hobbies.IRL</tspan><tspan class="dots">: ................ </tspan><tspan class="value">Guitar, VideoGames, Indie Games</tspan></text>
+    <text x="0" y="375" xml:space="preserve" class="header">Contact ─────────────────────────────────────────────────────────────────</text>
+    <text x="0" y="395" xml:space="preserve"><tspan class="key">Email.Personal</tspan><tspan class="dots">: ............. </tspan><tspan class="value">federicoolive@gmail.com</tspan></text>
+    <text x="0" y="415" xml:space="preserve"><tspan class="key">LinkedIn</tspan><tspan class="dots">: ................... </tspan><tspan class="value">FedeOlive</tspan></text>
+    <text x="0" y="435" xml:space="preserve"><tspan class="key">Discord</tspan><tspan class="dots">: .................... </tspan><tspan class="value">SauronR</tspan></text>
+    <text x="0" y="475" xml:space="preserve" class="header">GitHub Stats ────────────────────────────────────────────────────────────</text>
+    <text x="0" y="495" xml:space="preserve"><tspan class="key">Repos</tspan><tspan class="dots">: ...................... </tspan><tspan class="value"><!--repos-->000<!--/repos--></tspan><tspan class="dots"> | </tspan><tspan class="key">Stars</tspan><tspan class="dots">: ...... </tspan><tspan class="value"><!--stars-->000<!--/stars--></tspan></text>
+    <text x="0" y="515" xml:space="preserve"><tspan class="key">Commits</tspan><tspan class="dots">: .................... </tspan><tspan class="value"><!--commits-->000<!--/commits--></tspan><tspan class="dots"> | </tspan><tspan class="key">Followers</tspan><tspan class="dots">: .. </tspan><tspan class="value"><!--followers-->000<!--/followers--></tspan></text>
+    <text x="0" y="535" xml:space="preserve"><tspan class="key">Lines of Code on GitHub</tspan><tspan class="dots">: .... </tspan><tspan class="value"><!--loc-->000<!--/loc--></tspan><tspan class="value"> ( </tspan><tspan class="added"><!--loc_add-->000<!--/loc_add-->++</tspan><tspan class="value">, </tspan><tspan class="removed"><!--loc_del-->000<!--/loc_del-->--</tspan><tspan class="value"> )</tspan></text>
+  </svg>
+</svg>
