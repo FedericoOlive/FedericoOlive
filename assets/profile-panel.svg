@@ -236,7 +236,7 @@
   <svg class="info" x="278" y="28.4" width="580" height="472.7" viewBox="0 0 665 542">
     <text x="0" y="15" xml:space="preserve" class="header">federico@olive ──────────────────────────────────────────────────────────</text>
     <text x="0" y="35" xml:space="preserve"><tspan class="key">OS</tspan><tspan class="dots">: ......................... </tspan><tspan class="value">Windows 10, Ubuntu 24.04 LTS, Android 16</tspan></text>
-    <text x="0" y="55" xml:space="preserve"><tspan class="key">Uptime</tspan><tspan class="dots">: ..................... </tspan><tspan class="value"><!--uptime-->31 years, 7 months, 22 days<!--/uptime--></tspan></text>
+    <text x="0" y="55" xml:space="preserve"><tspan class="key">Uptime</tspan><tspan class="dots">: ..................... </tspan><tspan class="value"><!--uptime-->31 years, 7 months, 23 days<!--/uptime--></tspan></text>
     <text x="0" y="75" xml:space="preserve"><tspan class="key">Host</tspan><tspan class="dots">: ....................... </tspan><tspan class="value">Buenos Aires, Argentina</tspan></text>
     <text x="0" y="95" xml:space="preserve"><tspan class="key">Kernel</tspan><tspan class="dots">: ..................... </tspan><tspan class="value">Game Developer, Business Systems Automation</tspan></text>
     <text x="0" y="115" xml:space="preserve"><tspan class="key">IDE</tspan><tspan class="dots">: ........................ </tspan><tspan class="value">Rider, VS Community, VSCode</tspan></text>
@@ -255,6 +255,6 @@
     <text x="0" y="475" xml:space="preserve" class="header">GitHub Stats ────────────────────────────────────────────────────────────</text>
     <text x="0" y="495" xml:space="preserve"><tspan class="key">Repos</tspan><tspan class="dots">: ...................... </tspan><tspan class="value"><!--repos--> 43<!--/repos--></tspan><tspan class="dots"> | </tspan><tspan class="key">Stars</tspan><tspan class="dots">: ...... </tspan><tspan class="value"><!--stars-->0<!--/stars--></tspan></text>
     <text x="0" y="515" xml:space="preserve"><tspan class="key">Commits</tspan><tspan class="dots">: .................... </tspan><tspan class="value"><!--commits-->547<!--/commits--></tspan><tspan class="dots"> | </tspan><tspan class="key">Followers</tspan><tspan class="dots">: .. </tspan><tspan class="value"><!--followers-->1<!--/followers--></tspan></text>
-    <text x="0" y="535" xml:space="preserve"><tspan class="key">Lines of Code on GitHub</tspan><tspan class="dots">: .... </tspan><tspan class="value"><!--loc-->6,785,876<!--/loc--></tspan><tspan class="value"> ( </tspan><tspan class="added"><!--loc_add-->9,242,051<!--/loc_add-->++</tspan><tspan class="value">, </tspan><tspan class="removed"><!--loc_del-->2,456,175<!--/loc_del-->--</tspan><tspan class="value"> )</tspan></text>
+    <text x="0" y="535" xml:space="preserve"><tspan class="key">Lines of Code on GitHub</tspan><tspan class="dots">: .... </tspan><tspan class="value"><!--loc-->6,787,194<!--/loc--></tspan><tspan class="value"> ( </tspan><tspan class="added"><!--loc_add-->9,243,631<!--/loc_add-->++</tspan><tspan class="value">, </tspan><tspan class="removed"><!--loc_del-->2,456,437<!--/loc_del-->--</tspan><tspan class="value"> )</tspan></text>
   </svg>
 </svg>
