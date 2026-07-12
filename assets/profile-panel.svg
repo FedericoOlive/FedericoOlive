@@ -236,7 +236,7 @@
   <svg class="info" x="278" y="28.4" width="580" height="472.7" viewBox="0 0 665 542">
     <text x="0" y="15" xml:space="preserve" class="header">federico@olive ──────────────────────────────────────────────────────────</text>
     <text x="0" y="35" xml:space="preserve"><tspan class="key">OS</tspan><tspan class="dots">: ......................... </tspan><tspan class="value">Windows 10, Ubuntu 24.04 LTS, Android 16</tspan></text>
-    <text x="0" y="55" xml:space="preserve"><tspan class="key">Uptime</tspan><tspan class="dots">: ..................... </tspan><tspan class="value"><!--uptime-->31 years, 7 months, 23 days<!--/uptime--></tspan></text>
+    <text x="0" y="55" xml:space="preserve"><tspan class="key">Uptime</tspan><tspan class="dots">: ..................... </tspan><tspan class="value"><!--uptime-->31 years, 7 months, 24 days<!--/uptime--></tspan></text>
     <text x="0" y="75" xml:space="preserve"><tspan class="key">Host</tspan><tspan class="dots">: ....................... </tspan><tspan class="value">Buenos Aires, Argentina</tspan></text>
     <text x="0" y="95" xml:space="preserve"><tspan class="key">Kernel</tspan><tspan class="dots">: ..................... </tspan><tspan class="value">Game Developer, Business Systems Automation</tspan></text>
     <text x="0" y="115" xml:space="preserve"><tspan class="key">IDE</tspan><tspan class="dots">: ........................ </tspan><tspan class="value">Rider, VS Community, VSCode</tspan></text>
