@@ -46,15 +46,29 @@ query($login: String!, $from: DateTime!, $to: DateTime!) {
 """
 
 
-def graphql(query: str, variables: dict, token: str) -> dict:
-    response = requests.post(
-        GRAPHQL_URL,
-        json={"query": query, "variables": variables},
-        headers={"Authorization": f"bearer {token}"},
-        timeout=30,
-    )
-    response.raise_for_status()
-    return response.json()["data"]
+def graphql(query: str, variables: dict, token: str, attempts: int = 5) -> dict:
+    last_error = None
+    for attempt in range(attempts):
+        try:
+            response = requests.post(
+                GRAPHQL_URL,
+                json={"query": query, "variables": variables},
+                headers={"Authorization": f"bearer {token}"},
+                timeout=60,
+            )
+            if response.status_code >= 500 or response.status_code == 429:
+                raise RuntimeError(f"HTTP {response.status_code}: {response.text[:200]}")
+            response.raise_for_status()
+            payload = response.json()
+            if payload.get("errors") or not payload.get("data"):
+                raise RuntimeError(f"GraphQL errors: {payload.get('errors')}")
+            return payload["data"]
+        except (requests.ConnectionError, requests.Timeout, RuntimeError, ValueError) as error:
+            last_error = error
+            print(f"GraphQL attempt {attempt + 1}/{attempts} failed: {error}")
+            if attempt + 1 < attempts:
+                time.sleep(5 * 2**attempt)
+    raise RuntimeError(f"GraphQL request failed after {attempts} attempts") from last_error
 
 
 def uptime(today: datetime.date) -> str:
@@ -95,8 +109,15 @@ def lines_of_code(login: str, repo_full_names: list, token: str) -> tuple:
     for full_name in repo_full_names:
         url = f"{REST_URL}/repos/{full_name}/stats/contributors"
         response = None
-        for _ in range(5):
-            response = requests.get(url, headers=headers, timeout=30)
+        for attempt in range(5):
+            try:
+                response = requests.get(url, headers=headers, timeout=60)
+            except (requests.ConnectionError, requests.Timeout) as error:
+                print(f"{full_name}: attempt {attempt + 1}/5 failed: {error}")
+                if attempt == 4:
+                    raise
+                time.sleep(5 * 2**attempt)
+                continue
             if response.status_code != 202:
                 break
             time.sleep(3)
@@ -140,10 +161,14 @@ def fetch_stats(login: str, token: str, include_loc: bool) -> dict:
             {node["nameWithOwner"] for node in repo_nodes}
             | {node["nameWithOwner"] for node in contributed_nodes}
         )
-        additions, deletions = lines_of_code(login, full_names, token)
-        stats["loc"] = f"{additions - deletions:,}"
-        stats["loc_add"] = f"{additions:,}"
-        stats["loc_del"] = f"{deletions:,}"
+        try:
+            additions, deletions = lines_of_code(login, full_names, token)
+        except (requests.ConnectionError, requests.Timeout) as error:
+            print(f"Skipping LOC update, keeping previous values: {error}")
+        else:
+            stats["loc"] = f"{additions - deletions:,}"
+            stats["loc_add"] = f"{additions:,}"
+            stats["loc_del"] = f"{deletions:,}"
     return stats
 
 
